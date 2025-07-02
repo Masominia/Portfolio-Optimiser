@@ -1,0 +1,8 @@
+seed: 14
+shrinkage: 0.2
+cap: 0.05                       # largest weight of one stock
+train_days: 500
+rebalance_days: 21
+sizes: [30, 60, 100, 200, 300]  # universe sizes for the accuracy and speed study
+reference_max: 100              # largest size also solved by SciPy SLSQP
+penalties: [0.0, 0.0005, 0.002, 0.005, 0.02]   # trading-cost coefficient kappa, in units of annual variance
