@@ -1,0 +1,262 @@
+{
+ "accuracy": [
+  {
+   "assets": 30,
+   "problem": "minimum variance",
+   "iterations": 69,
+   "optimality violation": 7.97e-08,
+   "budget error": 4e-10,
+   "weights at a bound": 14,
+   "weights left untouched": 0,
+   "largest weight difference to SLSQP": 3.87e-08,
+   "objective minus SLSQP objective": -0.0
+  },
+  {
+   "assets": 30,
+   "problem": "mean-variance",
+   "iterations": 121,
+   "optimality violation": 9e-10,
+   "budget error": 6e-10,
+   "weights at a bound": 26,
+   "weights left untouched": 0,
+   "largest weight difference to SLSQP": 3.77e-08,
+   "objective minus SLSQP objective": -0.0
+  },
+  {
+   "assets": 30,
+   "problem": "minimum variance with trading cost",
+   "iterations": 76,
+   "optimality violation": 7.85e-08,
+   "budget error": 2e-10,
+   "weights at a bound": 12,
+   "weights left untouched": 4,
+   "largest weight difference to SLSQP": null,
+   "objective minus SLSQP objective": null
+  },
+  {
+   "assets": 60,
+   "problem": "minimum variance",
+   "iterations": 115,
+   "optimality violation": 2.7e-09,
+   "budget error": 1e-09,
+   "weights at a bound": 41,
+   "weights left untouched": 0,
+   "largest weight difference to SLSQP": 7.84e-08,
+   "objective minus SLSQP objective": 0.0
+  },
+  {
+   "assets": 60,
+   "problem": "mean-variance",
+   "iterations": 207,
+   "optimality violation": 8e-10,
+   "budget error": 1.54e-08,
+   "weights at a bound": 57,
+   "weights left untouched": 0,
+   "largest weight difference to SLSQP": 1.37e-08,
+   "objective minus SLSQP objective": -6e-10
+  },
+  {
+   "assets": 60,
+   "problem": "minimum variance with trading cost",
+   "iterations": 235,
+   "optimality violation": 8.72e-08,
+   "budget error": 4e-10,
+   "weights at a bound": 28,
+   "weights left untouched": 15,
+   "largest weight difference to SLSQP": null,
+   "objective minus SLSQP objective": null
+  },
+  {
+   "assets": 100,
+   "problem": "minimum variance",
+   "iterations": 114,
+   "optimality violation": 7.8e-09,
+   "budget error": 1.6e-09,
+   "weights at a bound": 76,
+   "weights left untouched": 0,
+   "largest weight difference to SLSQP": 1.739e-07,
+   "objective minus SLSQP objective": 0.0
+  },
+  {
+   "assets": 100,
+   "problem": "mean-variance",
+   "iterations": 491,
+   "optimality violation": 3.8e-09,
+   "budget error": 6.97e-08,
+   "weights at a bound": 97,
+   "weights left untouched": 0,
+   "largest weight difference to SLSQP": 3.93e-08,
+   "objective minus SLSQP objective": -4.1e-09
+  },
+  {
+   "assets": 100,
+   "problem": "minimum variance with trading cost",
+   "iterations": 245,
+   "optimality violation": 9.52e-08,
+   "budget error": 4e-10,
+   "weights at a bound": 40,
+   "weights left untouched": 32,
+   "largest weight difference to SLSQP": null,
+   "objective minus SLSQP objective": null
+  },
+  {
+   "assets": 200,
+   "problem": "minimum variance",
+   "iterations": 231,
+   "optimality violation": 1.099e-07,
+   "budget error": 1.1e-09,
+   "weights at a bound": 160,
+   "weights left untouched": 0,
+   "largest weight difference to SLSQP": null,
+   "objective minus SLSQP objective": null
+  },
+  {
+   "assets": 200,
+   "problem": "mean-variance",
+   "iterations": 1174,
+   "optimality violation": 0.0,
+   "budget error": 1.458e-07,
+   "weights at a bound": 199,
+   "weights left untouched": 0,
+   "largest weight difference to SLSQP": null,
+   "objective minus SLSQP objective": null
+  },
+  {
+   "assets": 200,
+   "problem": "minimum variance with trading cost",
+   "iterations": 134,
+   "optimality violation": 1.06e-08,
+   "budget error": 7.8e-09,
+   "weights at a bound": 93,
+   "weights left untouched": 79,
+   "largest weight difference to SLSQP": null,
+   "objective minus SLSQP objective": null
+  },
+  {
+   "assets": 300,
+   "problem": "minimum variance",
+   "iterations": 246,
+   "optimality violation": 1.185e-07,
+   "budget error": 2.4e-09,
+   "weights at a bound": 254,
+   "weights left untouched": 0,
+   "largest weight difference to SLSQP": null,
+   "objective minus SLSQP objective": null
+  },
+  {
+   "assets": 300,
+   "problem": "mean-variance",
+   "iterations": 1492,
+   "optimality violation": 1.28e-08,
+   "budget error": 2.502e-07,
+   "weights at a bound": 295,
+   "weights left untouched": 0,
+   "largest weight difference to SLSQP": null,
+   "objective minus SLSQP objective": null
+  },
+  {
+   "assets": 300,
+   "problem": "minimum variance with trading cost",
+   "iterations": 196,
+   "optimality violation": 7.97e-08,
+   "budget error": 5.73e-08,
+   "weights at a bound": 159,
+   "weights left untouched": 115,
+   "largest weight difference to SLSQP": null,
+   "objective minus SLSQP objective": null
+  }
+ ],
+ "backtest": {
+  "0.0": {
+   "realised volatility %": 21.08504970297334,
+   "turnover per rebalance %": 10.466942184940354,
+   "first rebalance turnover %": 84.71758716879151,
+   "stocks traded per rebalance": 43.025,
+   "annual turnover %": 125.60330621928426,
+   "mean iterations": 281.4878048780488
+  },
+  "0.0005": {
+   "realised volatility %": 21.3224988372464,
+   "turnover per rebalance %": 7.323480353826114,
+   "first rebalance turnover %": 76.40101231017718,
+   "stocks traded per rebalance": 28.9,
+   "annual turnover %": 87.88176424591336,
+   "mean iterations": 342.2439024390244
+  },
+  "0.002": {
+   "realised volatility %": 21.489090400301716,
+   "turnover per rebalance %": 4.734365526347195,
+   "first rebalance turnover %": 52.84451512083274,
+   "stocks traded per rebalance": 19.3,
+   "annual turnover %": 56.81238631616634,
+   "mean iterations": 473.0975609756098
+  },
+  "0.005": {
+   "realised volatility %": 21.712530799788652,
+   "turnover per rebalance %": 3.265728332446031,
+   "first rebalance turnover %": 26.235235112275358,
+   "stocks traded per rebalance": 15.775,
+   "annual turnover %": 39.18873998935237,
+   "mean iterations": 556.8048780487804
+  },
+  "0.02": {
+   "realised volatility %": 24.99207129149258,
+   "turnover per rebalance %": 1.4523251853304628,
+   "first rebalance turnover %": 0.3333333333333265,
+   "stocks traded per rebalance": 7.15,
+   "annual turnover %": 17.427902223965553,
+   "mean iterations": 1010.6829268292682
+  }
+ },
+ "equal_weight_volatility": 28.215501178492193,
+ "checks": [
+  {
+   "area": "Accuracy",
+   "check": "optimality conditions satisfied on every problem",
+   "status": "PASS",
+   "detail": "largest violation 1.2e-07 of the gradient size, 15 problems"
+  },
+  {
+   "area": "Accuracy",
+   "check": "weights agree with SciPy SLSQP",
+   "status": "PASS",
+   "detail": "largest difference 1.7e-07"
+  },
+  {
+   "area": "Accuracy",
+   "check": "objective never worse than SLSQP by more than 1e-9",
+   "status": "PASS",
+   "detail": "worst case +1.5e-11"
+  },
+  {
+   "area": "Accuracy",
+   "check": "budget constraint met",
+   "status": "PASS",
+   "detail": "largest error 2.5e-07"
+  },
+  {
+   "area": "Sparsity",
+   "check": "the trading cost leaves positions exactly untouched",
+   "status": "PASS",
+   "detail": "4 of 30, 15 of 60, 32 of 100, 79 of 200, 115 of 300"
+  },
+  {
+   "area": "Backtest",
+   "check": "minimum variance has lower realised volatility than equal weights",
+   "status": "PASS",
+   "detail": "21.1% against 28.2%"
+  },
+  {
+   "area": "Backtest",
+   "check": "turnover falls monotonically with the trading cost",
+   "status": "PASS",
+   "detail": "10.5%, 7.3%, 4.7%, 3.3%, 1.5%"
+  },
+  {
+   "area": "Backtest",
+   "check": "turnover cut by more than half for less than one point of volatility",
+   "status": "PASS",
+   "detail": "turnover 10.5% to 4.7%, volatility 21.09% to 21.49%"
+  }
+ ]
+}
